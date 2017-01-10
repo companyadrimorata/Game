@@ -1,0 +1,30 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class EnemyController : MonoBehaviour {
+
+	public int speed = 2;
+
+	void Start () 
+	{
+   
+		StartCoroutine(Animate ());
+	}
+	
+	void Update () 
+	{
+		float auto = Time.deltaTime * speed;
+		transform.Translate (auto, 0, 0);
+	}
+
+	IEnumerator Animate()
+	{
+		while (true) {
+			yield return new WaitForSeconds (2);
+			transform.rotation = Quaternion.LookRotation (Vector3.back);
+			yield return new WaitForSeconds (2);
+			transform.rotation = Quaternion.LookRotation (Vector3.forward);
+		}
+	}
+}
