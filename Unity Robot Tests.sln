@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{40429538-7257-17D6-9742-F918CF4B818E}") = "Unity Robot Tests", "Assembly-CSharp.csproj", "{9B09C56F-8A35-B8C8-EBF1-648E36802EC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B09C56F-8A35-B8C8-EBF1-648E36802EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B09C56F-8A35-B8C8-EBF1-648E36802EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B09C56F-8A35-B8C8-EBF1-648E36802EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B09C56F-8A35-B8C8-EBF1-648E36802EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
